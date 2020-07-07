@@ -29,11 +29,11 @@ namespace DOC.Intranet.Demo.Views.MasterPages
             // Add keywords meta tag
             if (CurrentPage.MetaKeywords != null && CurrentPage.MetaKeywords.Length > 0)
             {
-                Page.Header.Controls.Add(new HtmlMeta
-                                            {
-                                                Name = "keywords",
-                                                Content = string.Join(",", CurrentPage.MetaKeywords)
-                                            });
+//                Page.Header.Controls.Add(new HtmlMeta
+//                                            {
+//                                                Name = "keywords",
+//                                                Content = string.Join(",", CurrentPage.MetaKeywords)
+//                                            });
             }
 
             // Add description meta tag
